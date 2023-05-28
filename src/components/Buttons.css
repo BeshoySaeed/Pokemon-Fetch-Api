@@ -1,0 +1,27 @@
+.forward {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 40%;
+  right: 40%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.Back {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.forward:hover,
+.Back:hover {
+    background-color: rgb(230, 203, 171);
+    color: black;
+}
